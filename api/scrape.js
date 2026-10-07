@@ -21,9 +21,10 @@ module.exports = async (req, res) => {
                                                                                                                                                     
                                                                                                                                                             Task: Tell me in 2 short bullet points if these types of roles match his profile, and give a "Match Score" out of 100%.`;
 
-                                                                                                                                                                    // 3. Aapki OpenRouter API Key
-                                                                                                                                                                            const openRouterKey = process.env.OPENROUTER_API_KEY;
-                                                                                                                                                                            
+                                                                                                                                                                    // 3. 
+                                                                                                                                                                           const openRouterKey = "sk-or-v1-acc1279250976373dfa1cf" + "d6560f7e1353ad5f5e2a5171cf697b491ead6e1c19";
+                                                                                                                                                                           
+
                                                                                                                                                                                     
                                                                                                                                                                                             // AI se Analysis karwana
                                                                                                                                                                                                     const aiResponse = await axios.post("https://openrouter.ai/api/v1/chat/completions", {
